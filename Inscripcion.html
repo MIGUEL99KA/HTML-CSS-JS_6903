@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/Diseño.css">
+    <title>Inscripcion</title>
+</head>
+
+<body>
+<h2>Formulario de Inscripcion</h2><br>
+<br>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <label class="visually-hidden" for="Nombre">Nombre</label>
+        <input type="text" class="form-control" id="specificSizeInputName" placeholder="Ingrese su nombre"><br>
+
+        <label class="visually-hidden" for="Apellido">Apellido</label>
+        <input type="text" class="form-control" id="specificSizeInputName" placeholder="Ingrese su Apellido"><br>
+
+        <label class="visually-hidden" for="Edad">Edad</label>
+        <input type="number" class="form-control" id="specificSizeInputName" placeholder="Ingrese su Edad"><br>
+
+        <label class="visually-hidden" for="Genero">Genero</label>
+        <select class="form-select" id="specificSizeSelect"> 
+            <option value="1">Prefiero no decirlo</option>
+            <option value="2">Mujer</option>
+            <option value="3">Hombre</option>
+        </select><br>
+
+        <label for="¿Porque quieres inscribirte?" class="form-label"><h6>¿Porque quieres inscribirte?</h6></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea><br>
+         
+        <label for="Documento" class="form-label"><h6>Documento</h6></label>
+        <input class="form-control" type="file" id="formFile"><br>
+        <h6>Ingrese su fecha de naciemiento</h3>
+        <label class= "visually-hidden" for="Fecha de naciemiento">Fecha de nacimiento</label>
+        <input id="Fecha de naciemiento" type="date"><br>
+        <br>
+
+        <h6>¿Cual es su equipo Favorito de la NBA?</h6> 
+        <label class="visually-hidden" for="EquipoFav">Equipo Favorito de la NBA</label>
+        <select class="form-select" id="specificSizeSelect"> 
+            <option value="1">Boston Celtics</option>
+            <option value="2">Brooklyn Nets</option>
+            <option value="3">New York Knicks</option>
+            <option value="4">Philadelphia 76ers</option>
+            <option value="5">Toronto Raptors</option>
+            <option value="6">Golden State Warriors</option>
+            <option value="7">LA Clippers</option>
+            <option value="8">Los Angeles Lakers</option>
+            <option value="9">Phoenix Suns</option>
+            <option value="10">Sacramento Kings</option>
+            <option value="11">Chicago Bulls</option>
+            <option value="12">Cleveland Cavaliers</option>
+            <option value="13">Detroit Pistons</option>
+            <option value="14">Indiana Pacers</option>
+            <option value="15">Milwaukee Bucks</option>
+            <option value="16">Atlanta Hawks</option>
+            <option value="17">Charlotte Hornets</option>
+            <option value="18">Miami Heat</option>
+            <option value="19">Orlando Magic</option>
+            <option value="20">Washington Wizards</option>
+            <option value="21">Denver Nuggets</option>
+            <option value="22">Minnesota Timberwolves</option>
+            <option value="23">Oklahoma City Thunder</option>
+            <option value="24">Portland Trail Blazers</option>
+            <option value="25">Utah Jazz</option>
+            <option value="26">Dallas Mavericks</option>
+            <option value="27">Houston Rockets</option>
+            <option value="28">Memphis Grizzlies</option>
+            <option value="29">New Orleans Pelicans</option>
+            <option value="30">San Antonio Spurs</option>
+        </select><br>
+
+        <label class="visually-hidden" for="JufadorFav">Jugador Favorito</label>
+        <input type="text" class="form-control" id="specificSizeInputName" placeholder="¿Cual es su jugador favorito de la NBA?"><br>
+
+        <input type="submit" value="enviar">
+    </form>
+</body>
+
+</html>
